@@ -6,196 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myntra</title>
-    <script src="https://kit.fontawesome.com/e065c3aa9c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon"
     href="data:image/jpeg;base64,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"
     type="image/x-icon">
-    <style>
-    #screen
-    {
-        border: 1px solid black;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-top: 5px;
 
-    }
-    #screen>div
-    {
-        /* border: 1px solid red; */
-        width: 18%;
-        height: 350px;
-
-    }
-    #screen img
-    {
-        width: 100%;
-    }
-</style>
+   
 </head>
 
-<body>
-    <div id="full-page">
-        <div id="navbar">
-            <div id="nav-logo">
-                <img src="https://cdn3.freelogovectors.net/wp-content/uploads/2023/01/myntra-logo-freelogovectors.net_-400x225.png"
-                    alt="myntra" />
-            </div>
-            <div id="nav-link">
-                <div>
-                    <p>Men</p>
+<body style="background-color: rgb(235, 245, 245);">
+    <center>
+        <form id="addmenu">
+            <h1>Add Your Product on Myntra </h1>
+            <div>
+                <div id="ProAdd">
+                    <span>Enter Your Product Name</span><br>
+                    <input type="text" id="Name" placeholder="enter your name"> <br>
                 </div>
-                <div>
-                    <p>Women</p>
+                <div id="ProAdd">
+                    <span>Enter Your Product URL</span><br>
+                    <input type="text" id="image" placeholder="enter your img"> <br>
                 </div>
-                <div>
-                    <p>Kids</p>
+                <div id="ProAdd">
+                    <span>Enter Your Product Price</span><br>
+                    <input type="text" id="price" placeholder="enter your price"> <br>
                 </div>
-                <div>
-                    <p>Home & Living</p>
-                </div>
-                <div>
-                    <p>Beauty</p>
-                </div>
-                <div>
-                    <p>Studio</p>
+                <div id="ProAdd">
+
+                    <button onclick="addToLS()">submit product</button>
                 </div>
             </div>
-            <div id="nav-search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="search" placeholder="Search for Products,brand and more" />
-            </div>
-            <div id="nav-icon">
-                <!-- ///only in mobile view -->
-                <div class="none"><i class="fa-regular fa-square-plus"></i></div>
-                <div class="none"><i class="fa-solid fa-magnifying-glass"></i></div>
-                <div>
-                    <a href="/login.html">
-                        <i class="fa-regular fa-user"></i>
-                        <p>Profile</p>
-                    </a>
-                </div>
-                <div>
-                    <i class="fa-regular fa-heart"></i>
-                    <p>Whishlist</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-bag-shopping"></i>
-                    <p>Bag</p>
-                </div>
-            </div>
-        </div>
-        <div id="Sdiv">
-            <span>Hme/Clothing/<b>Men-T-Shirts</b></span>
-        </div>
-        <div class="Tdiv">
-            <span><b>Men-T-Shirts</b></span>
-            <span id="Tdiv">-78263</span>
-        </div>
-        <div class="Fdiv">
-            <div id="f1">
-                <span><b>FILTERS</b></span>
-            </div>
-            <div id="f2">
-                <div style="display: flex;">
-                    <p>Bundles</p>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div style="display: flex;">
-                    <p>Country of origin</p>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-                <div style="display: flex;">
-                    <p>Size</p>
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-            </div>
-            <div id="f3">
-                <p>Sorted by: <strong>Recommended</strong></p>
-            </div>
-        </div>
-        <!-- _______________________________________________________________________________________________________________ -->
-        <div class="adddata">
-            <div id="add">
-                <div id="CATEGORIES">
-                    <h4>CATEGORIES</h4>
-                </div>
-                <div id="checkbox">
-                    <input type="checkbox">
-                    <span>Tshirts</span>
-                    <span style="opacity: 0.4 ;color: #352828;">(77333)</span>
-                </div>
-                <div id="checkbox">
-                    <input type="checkbox">
-                    <span>Lounge Tshirts</span>
-                    <span style="opacity: 0.4 ;color: #352828;">(805)</span>
-                </div>
-                
-                    <div id="BRAND">
-                        <h4>BRAND</h4>
-                    </div>
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <span>Roadster</span>
-                        <span style="opacity: 0.4 ;color: #352828;">(3595)</span>
-                    </div>
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <span>U.S.Polo Assn.</span>
-                        <span style="opacity: 0.4 ;color: #352828;">(1362)</span>
-                    </div>
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <span>Tommy Hilfiger</span>
-                        <span style="opacity: 0.4 ;color: #352828;">(1295)</span>
-                    </div>
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <span>Jack & Jones.</span>
-                        <span style="opacity: 0.4 ;color: #352828;">(1240)</span>
-                    </div>
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <span>WROGN.</span>
-                        <span style="opacity: 0.4 ;color: #352828;">(1212)</span>
-                    </div>
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <span>Puma.</span>
-                        <span style="opacity: 0.4 ;color: #352828;">(1207)</span>
-                    </div>
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <span>HRX by Hrithik Roshan.</span>
-                        <span style="opacity: 0.4 ;color: #352828;">(1176)</span>
-                    </div>
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <span>HERE&NOW</span>
-                        <span style="opacity: 0.4 ;color: #352828;">(1115)</span>
-                    </div>
-                    <div id="num">
-                        <span>+594 more</span>
-                    </div>
-
-
-                </div>
-
-
-
-
-                <!-- ---------------------------------------------------------------------------------------------------------------- -->
-
-                <div id="screen">
-        
-                </div>
-                <script src="show.js"></script>
-            </div>
-
-
-
+        </form>
+    </center>
+    <script src="product.js"></script>
 </body>
 
 </html>

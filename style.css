@@ -14,12 +14,12 @@ a{
 }
 #navbar{
     /* border:1px solid blue; */
-    height:12%;
+    height:60px;
     width:100%;
     display:flex;
     justify-content: space-around;
     align-items:center;
-    position:absolute;
+    /* position:absolute; */
     box-shadow: 1px 3px 3px grey;
     background-color: white;
 }
@@ -87,7 +87,7 @@ a{
 }
 #Sdiv
 {
-    margin-top: 7%;
+    margin-top: 2%;
     /* border: 1px solid red; */
     padding-left: 25px;
 }
@@ -106,10 +106,11 @@ a{
 {
     width: 100%;
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     height: 40px;
     margin-top: 25px;
+    border-bottom: 1px solid gray;
 }
 #f1
 {
@@ -139,32 +140,33 @@ a{
 .adddata
 {
     width: 100%;
-     border: 1px solid red; 
+     /* border: 1px solid red;  */
     display: flex;
 }
 #add
 {
 width: 18%;
-border: 1px solid red; 
-height: 6000px;
+/* border: 1px solid red;  */
+/* height: 6000px; */
+border-right: 1px solid gray
 }
-#product
+#screen
 {
 width: 82%;
-border: 1px solid red; 
-height: 6000px;
+/* border: 1px solid red;  */
+/* height: 6000px; */
 }
 #CATEGORIES
 {
     padding-left: 23px;
     margin: 5px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #checkbox
 {
     padding-left: 23px;
     margin: 5px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #checkbox span
 {
@@ -176,18 +178,60 @@ height: 6000px;
 {
     padding-left: 23px;
     margin-top: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 10px;
     
 }
 #num
 {
-    color: red;
+    /* color: red; */
     /* margin-left: 50px; */
     text-align: center;
     font-size: large;
     margin-top: 10px;
     border-bottom: 1px solid gray;
     
+}
+#addmenu
+{
+    border: 1px solid rgb(35, 31, 31);
+    width: 40%;
+    align-content: center;
+   text-align: center;
+   margin-top: 100px;
+}
+#ProAdd
+{
+   margin:20px;
+}
+#ProAdd input
+{
+    height: 30px;
+    width: 500px;
+}
+#ProAdd span 
+{
+    font-size: 25px;
+    
+
+}
+::placeholder
+    {
+    font-size: 18px;
+    opacity: 0.8;
+    text-align: center;
+    }
+#ProAdd button
+{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(231, 165, 165);
+}
+.input-fields
+{
+    width: 80%;
+    height: 30px;
+    margin: 22px;
 }
 
